@@ -3,10 +3,10 @@ addScript("Scripts/Listeners/ListenerLoader.js");
 addScript("Scripts/Objects/ObjectLoader.js");
 setTimeout(() => {
 addScript("Scripts/Assets.js");
-addScript("Scripts/Game.js");
 addScript("Scripts/States/StateLoader.js")
 }, 1000);
 setTimeout(() => {
+addScript("Scripts/Game.js");
 addScript("Scripts/StateManager.js");
 addScript("Scripts/SoundManager.js");
 }, 2000);
