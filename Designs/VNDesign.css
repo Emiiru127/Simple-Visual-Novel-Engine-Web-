@@ -1,0 +1,39 @@
+@import url("Animations/Animations.css");
+@import url("Buttons/GameButtons.css");
+@import url("Fonts/Fonts.css");
+@import url("Objects/Objects.css");
+@import url("States/States.css");
+
+#VN{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+
+}
+
+#Title{
+
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+.stateContent{
+
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+
+
+}

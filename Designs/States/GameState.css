@@ -1,0 +1,236 @@
+#gameState{
+    
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    opacity: 1;
+    display: none;
+
+}
+
+#gameStateBG1{
+
+    background-color: inherit;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 1;
+    z-index: -1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(1);
+
+}
+
+#gameStateBG2{
+
+    background-color: inherit;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+#gameStateBG3{
+
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    z-index: 1;
+
+}
+
+.characterContainer{
+
+    position: absolute;
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    bottom: 0px;
+
+}
+
+#characterLeft{
+
+    left: 0px;
+    margin-left: 2.5%;
+    
+}
+
+#characterCenter{
+
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#characterRight{
+
+    right: 0px;
+    margin-right: 2.5%;
+    
+}
+
+.characterImg{
+
+    position: absolute;
+    background-color: inherit;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#characterLeftImg{
+    opacity: 0;
+}
+#characterCenterImg{
+    opacity: 0;
+}
+#characterRightImg{
+    opacity: 0;
+}
+
+
+#characterSpeechBox{
+
+    position: absolute;
+    width: 75%;
+    height: 25%;
+    opacity: 1;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    z-index: 1;
+   
+}
+
+#characterNameBox{
+
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: linear-gradient(pink,white);
+    text-shadow: 2px 2px white;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.60vmax;
+    font-weight: bold;
+    top: 0px;
+    left: 0px;
+    margin-top: -65px;
+    margin-left: -0.5%;
+    opacity: 0;
+    
+}  
+
+#dialogueBox{
+
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: linear-gradient(pink,white);
+    width: 99%;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0.5%;
+    margin-right: auto;
+    text-align: justify;
+    
+} 
+
+#characterDialogueBox{
+
+    padding: 10px;
+    position: absolute;
+    text-shadow: 2px 2px white;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    font-family: 'DotGothic16';
+    font-size: 1.30vmax;
+    font-weight: normal;
+    top: 0px;
+    left: 0px;
+    word-wrap: break-word;
+    
+} 
+
+#clickRequester{
+
+    position: absolute;
+    height: 17.5%;
+    width: 7.5%;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    display: none;
+
+}
+
+#clickListener{
+
+    position: absolute;
+    background: transparent;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 3;
+    
+
+}
+
+#gameStateObjectDisplay{
+
+    position: absolute;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+
+}

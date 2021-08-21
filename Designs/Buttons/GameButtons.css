@@ -1,0 +1,23 @@
+.gameButton{
+
+    position: relative;
+    text-align: left;
+    background-color: inherit;
+    outline: none;
+    border: 0px;
+    width: fit-content;
+    height: 50px;
+    padding: 0px;
+    font-family: 'DotGothic16';
+    font-size: 40px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05px white;
+
+}
+
+.gameButton:hover{
+
+    color: red;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    <title>Visual Novel Engine Project</title>
+</head>
+<body>
+
+<header id="header">
+
+    VISUAL NOVEL ENGINE PROJECT
+
+</header>
+
+<div id="VNContainer">
+<!--VN-->    
+    <div id="VN">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div id="menuState" >
+
+            <div class="stateContent">
+
+                <h1 id="Title">Visual Novel Project</h1>
+                <br>
+                <button type="button" class="gameButton" id="menuStart">Start</button>
+                <br>
+                <button type="button" class="gameButton" id="menuSettings">Settings</button>
+                <br>
+                <button type="button" class="gameButton" id="menuCredits">Credits</button>
+
+            </div>
+
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div id="gameState">
+
+            <!--Backgrounds--> 
+
+            <img id="gameStateBG1" >
+            <img id="gameStateBG2" >
+            <img id="gameStateBG3" >
+
+            <!--End of backgrounds--> 
+            <!--Listeners--> 
+
+            <div id="clickListener"></div>
+                
+            <!--End of listeners--> 
+
+            <div id="gameStateObjectDisplay"></div>
+
+            <div class="characterContainer" id="characterLeft">
+
+                <img class="characterImg" id="characterLeftImg">
+
+            </div>
+            <div class="characterContainer" id="characterCenter">
+
+                <img class="characterImg" id="characterCenterImg">
+
+            </div>
+            <div class="characterContainer" id="characterRight">
+
+                <img class="characterImg" id="characterRightImg">
+
+            </div>
+
+            <div id= "characterSpeechBox">
+                    
+                <div id="dialogueBox">
+
+                    <div id="characterNameBox"></div>
+                    <span id="characterDialogueBox"></span>
+                    <img id="clickRequester">
+
+                </div>  
+        
+            </div>
+            
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div id="settingsState"> 
+            
+            <div class="stateContent">
+
+                <h1 id="Title">Settings</h1>
+                <br>
+                <button type="button" class="gameButton" id="settingsBack">Back</button>
+
+                <div id="settings">
+
+                    <table id="soundManager">
+
+                        <tr>
+
+                            <th class="column1">Volume</th>
+                            <th class="column2"></th>
+                            <th class="column3"></th>
+                            <th class="column4">Mute</th>
+
+                        </tr>
+                        <tr>
+
+                            <td class="column1"><label>Master Volume</label></td>
+                            <td class="column2"><span id="masterVolume">50</span></td>
+                            <td class="column3"><input class="volumeSlider" id="masterVolumeSlider" type="range" min="0" max="100" value="50"></td>
+
+                        </tr>
+                        <tr>
+
+                            <td class="column1"><label>Music Volume</label></td>
+                            <td class="column2"><span id="backgroundMusicVolume">50</span></td>
+                            <td class="column3"><input class="volumeSlider" id="musicVolumeSlider" type="range" min="0" max="100" value="50"></td>
+                            <td class="column4"><input class="muteBox" id="musicVolumeMuteBox"  type="checkbox"></td>
+
+                        </tr>
+                        <tr>
+
+                            <td class="column1"><label>Sound Effects Volume</label></td>
+                            <td class="column2"><span id="soundEffectsVolume">75</span></td>
+                            <td class="column3"><input class="volumeSlider" id="soundEffectsVolumeSlider" type="range" min="0" max="100" value="75"></td>
+                            <td class="column4"><input class="muteBox" id="soundEffectsVolumeMuteBox"  type="checkbox"></td>
+
+                        </tr>
+                        <tr>
+
+                            <td class="column1"><label>Character Voice Volume</label></td>
+                            <td class="column2"><span id="characterVoiceVolume">75</span></td>
+                            <td class="column3"><input class="volumeSlider" id="characterVoiceVolumeSlider" type="range" min="0" max="100" value="75"></td>
+                            <td class="column4"><input class="muteBox" id="characterVoiceVolumeMuteBox"  type="checkbox"></td>
+
+                        </tr>
+
+                    </table>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div id="creditsState">
+            
+            <div class="stateContent">
+
+                <h1 id="Title">Credits</h1>
+                <br>
+                <button type="button" class="gameButton" id="creditsBack">Back</button>
+
+                <div id="creditsHolder">
+
+                    <h1 id="credits">
+                        
+                        Visual Novel Engine by:
+                        <br>
+                        clamsidev
+                        <br>
+                        <br>
+                        <br>
+                        Script Writer:
+                        <br>
+                        ???
+                        <br>
+                        <br>
+                        <br>
+                        Graphics Designer:
+                        <br>
+                        ???
+                        <br>
+                        <br>
+                        <br>
+                        Programmed by:
+                        <br>
+                        ???
+                    
+                    </h1>
+
+                </div>
+
+            </div>
+
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div id="loadingState"> 
+
+                <h1 id="loadingTitle">Loading</h1>
+            
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    
+
+    </div>
+<!--End of VN--> 
+</div>
+
+<div id="desc">
+    
+    <h3>Simple Visual Novel Engine (Web)</h3><br>
+    
+    *This Project is under development<br>
+    so expect that you may encounter bugs.<br><br>
+
+    *Sometimes if you encounter that a class<br>
+    was not defined, please reload it<br>
+    because the loading time of the scripts<br>
+    can be fast, so fast the classes did not parse<br>
+    immediately.<br><br> 
+
+    *Please read the js files in order to<br> 
+    know the functions and how they work.<br><br>
+
+    *About the css, run the project<br>
+    in chrome or edge because<br>
+    I'am not good at css.<br><br>
+
+    *About the next update, I am not sure when<br> 
+    so don't expect it to be developed anytime.<br><br>
+
+    *Okay last one, don't create a serious visual<br>
+    novel here, it is not programmed to <br>
+    be a powerful engine, use a real<br>
+    visual novel engine.<br><br>
+
+</div>
+
+<script src="Script.js" defer></script>
+
+</body>
+</html>

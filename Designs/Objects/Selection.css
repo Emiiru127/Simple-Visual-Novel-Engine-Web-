@@ -1,0 +1,40 @@
+#selectionBox{
+
+    position: absolute;
+    padding: 30px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 7.5%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    height: fit-content;
+    width: 500px;
+
+}
+
+.selectionChoiceButton{
+
+    position: relative;
+    background: linear-gradient(pink,white);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 12.5%; 
+    height: fit-content;
+    width: 75%;
+    font-size: 1.5em;
+    opacity: 1;
+    cursor: pointer;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.selectionAddButton{
+
+    margin-top: 10%;
+
+}

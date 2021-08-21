@@ -1,0 +1,53 @@
+@import url("Designs/VNDesign.css");
+
+html{
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: lightblue;
+
+}
+
+#VNContainer{   
+    
+    position: absolute;
+    height: 76.8409818569904vh;
+    width: 66.66666666666667vw;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: black;
+}
+
+#desc{
+
+    position: relative;
+    margin-top: 5%;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid black;
+    background-color: linen;
+    color: black;
+    padding: 5px;
+
+}
+
+#header{
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: fit-content;
+    width: 100%;
+    background-color: #e03444;
+    color: white;
+    font-size: 2.5em;
+    padding: 5px;
+
+}

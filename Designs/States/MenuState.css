@@ -1,0 +1,19 @@
+#menuState{
+
+    position: absolute;
+    background-color: transparent;
+    padding: auto;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    display: none;
+    background-image: url();
+    background-repeat: no repeat;
+	background-position:center;
+	background-size: cover;
+
+}
